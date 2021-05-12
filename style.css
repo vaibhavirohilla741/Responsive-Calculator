@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(3, 3, 3);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(90, 197, 197);
+
+}
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+ }
+
+
+.button{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: teal;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 18px;
+    width: 100%;
+  
+}
+
+@media (max-width:480px) {
+    .title{
+        width:auto;
+    }
+}
